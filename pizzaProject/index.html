@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Order a Pizza</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/pizza.css">
+	</head>
+	<body>
+			<div class="response">
+				
+				<h1 class="header">Build Your Pizza</h1>
+				<div class="pizzaSize">
+					<h3 class="header_center">Choose Your Size</h3>
+					<form class="form_center">
+						<p class="inline size">Personal</p>
+						<input type="radio" name="size" value="personal" checked>
+						<p class="inline">Medium</p>
+						<input class="inline" type="radio" name="size" value="medium">
+						<p class="inline">Large</p>
+						<input class="inline" type="radio" name="size" value="large">
+						<p class="inline">Extra Large</p>
+						<input class="inline" type="radio" name="size" value="xl">
+					</form>
+				</div>
+				<h1 class="header">Meat Options</h1>
+				<div class="pizzaSize">
+					<h3 class="header_center">Choose Your Meats</h3>
+					<form class="form_center">
+						<p class="inline size">Pepperoni</p>
+						<input type="checkbox" name="meat" value="Pepperoni">
+						<p class="inline">Sausage</p>
+						<input class="inline" type="checkbox" name="meat" value="Sausage">
+						<p class="inline">Canadian Bacon</p>
+						<input class="inline" type="checkbox" name="meat" value="Bacon">
+						<p class="inline">Ground Beef</p>
+						<input class="inline" type="checkbox" name="meat" value="Beef">
+						<p class="inline">Anchovy</p>
+						<input class="inline" type="checkbox" name="meat" value="Anchovy">
+						<p class="inline">Chicken</p>
+						<input class="inline" type="checkbox" name="meat" value="chicken">
+					</form>	
+				</div>
+				<h1 class="header">Crust Options</h1>
+				<div class="pizzaSize">
+					<h3 class="header_center">Choose Your Crust</h3>
+					<form class="form_center">
+						<p class="inline">Plain Crust</p>
+						<input class="inline" type="radio" name="crust" value="plain"checked>
+						<p class="inline">Garlic Butter Crust</p>
+						<input class="inline" type="radio" name="crust" value="garlic">
+						<p class="inline">Cheese Stuffed Crust</p>
+						<input class="inline" type="radio" name="crust" value="cheeseStuffed">
+						<p class="inline">Spicy Crust</p>
+						<input class="inline" type="radio" name="crust" value="spicy">
+						<p class="inline">House Special Crust</p>
+						<input class="inline" type="radio" name="crust" value="house">
+					</form>
+				</div>
+				<h1 class="header">Cheese Options</h1>
+				<div class="pizzaSize">
+					<h3 class="header_center">Choose Your Cheese</h3>	
+					<form class="form_center">
+						<p class="inline">No Cheese</p>
+						<input class="inline" type="radio" name="cheese" value="noCheese">
+						<p class="inline">Cheese</p>
+						<input class="inline" type="radio" name="cheese" value="cheese" checked>
+						<p class="inline">Extra Cheese</p>
+						<input type="radio" name="cheese" value="xtraCheese">
+					</form>
+					
+				</div>
+				
+				<h1 class="header">Sauce Options</h1>
+				<div class="pizzaSize">
+					<h3 class="header_center">Choose Your Sauce</h3>	
+					<form class="form_center">
+						<p class="inline">Marinara Sauce</p>
+						<input class="inline" type="radio" name="sauce" value="Marinara Sauce" checked>
+						<p class="inline">White Sauce</p>
+						<input class="inline" type="radio" name="sauce" value="White Sauce">
+						<p class="inline">Barbeque Sauce</p>
+						<input class="inline" type="radio" name="sauce" value="Barbeque Sauce">
+						<p class="inline">No Sauce</p>
+						<input class="inline" type="radio" name="sauce" value="No Sauce">
+					</form>
+					
+				</div>
+				
+				<h1 class="header">Veggie Options</h1>
+				<div class="pizzaSize" style="margin-bottom:20px;">
+					<h3 class="header_center">Choose Your Veggies</h3>	
+					<form class="form_center">
+						<p class="inline">Tomatoes</p>
+						<input class="inline" type="checkbox" name="veg" value="Tomatos">
+						<p class="inline">Onions</p>
+						<input class="inline" type="checkbox" name="veg" value="Onions">
+						<p class="inline">Olives</p>
+						<input class="inline" type="checkbox" name="veg" value="Olives">
+						<p class="inline">Green Peppers</p>
+						<input class="inline" type="checkbox" name="veg" value="Green Peppers">
+						<p class="inline">Mushrooms</p>
+						<input class="inline" type="checkbox" name="veg" value="Mushrooms">
+						<p class="inline">Pineapple</p>
+						<input class="inline" type="checkbox" name="veg" value="Pineapple">
+						<p class="inline">Spinach</p>
+						<input class="inline" type="checkbox" name="veg" value="Spinach">
+						<p class="inline">Jalapeno</p>
+						<input class="inline" type="checkbox" name="veg" value="Jalapenos">
+					</form>
+					
+				</div>
+				
+				<button type="button" onclick="myFunction()">Order</button>
+				
+				
+			</div>
+			
+			
+			<div id="recipt" onclick="goaway()">
+				<table class="tbl" id="test">
+					<tr>
+						<td id="size">
+							
+						</td>
+						<td id="sizecost">
+						
+						</td>	
+					</tr>
+					<tr>
+						<td id="crust">
+							pizza size
+						</td>
+						<td id="crustcost">
+						cost
+						</td>	
+					</tr>
+					<tr>
+						<td id="meats">
+							pizza size
+						</td>
+						<td id="meatsCost">
+						cost
+						</td>	
+					</tr>
+					<tr>
+						<td id="veggies">
+							pizza size
+						</td>
+						<td id="veggieCost">
+						cost
+						</td>	
+					</tr>
+					<tr>
+						<td id="sauce">
+							pizza size
+						</td>
+						<td>
+							+$0.00
+						</td>	
+					</tr>
+					<tr>
+						<td id="cheese">
+							pizza size
+						</td>
+						<td id="cheeseCost">
+						
+						</td>	
+					</tr>
+					<tr>
+						<td>
+							TOTAL
+						</td>
+						<td id="orderTotal">
+						cost
+						</td>	
+					</tr>
+					
+
+					
+
+
+
+				</table>
+			</div>
+
+			
+			
+			
+			
+		<script src="./js/pizza.js">
+		</script>
+		
+	</body>
+	
+</html>
