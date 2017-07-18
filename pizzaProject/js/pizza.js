@@ -1,6 +1,6 @@
 function myFunction(){
 	recipt = document.getElementById("recipt");
-	recipt.style.visibility = "visible";
+	recipt.style.opacity = "1";
 
 	var size = '';
 	var crust = '';
@@ -223,7 +223,7 @@ function myFunction(){
 
 function goaway() {
 	recipt = document.getElementById("recipt");
-	recipt.style.visibility = "hidden";
+	recipt.style.opacity = "0";
 }
 
 
