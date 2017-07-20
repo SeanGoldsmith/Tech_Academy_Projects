@@ -52,16 +52,17 @@
 
 #recipt {
 	background-color: #f2dbff;
-	width: 80vw;
 	height: 40vh;
+	width: 60vw;
 	position: fixed;
 	bottom: 40vh;
-	left: 10vw;
-	opacity: 0;
+	left: 20vw;
 	transition: all .5s ease-in-out;
 	border: 1px solid grey;
 	box-shadow: 2px 2px 2px grey;
 	border-radius: 10px;
+	opacity: 0;
+	visibility: hidden;
 	
 }
 
@@ -70,6 +71,7 @@
 	margin: 30px auto;
 	background-color: white;
 	border: 1px solid black;
+	
 
 
 }
