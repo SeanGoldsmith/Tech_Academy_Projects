@@ -1,5 +1,3 @@
-##I wasn't sure if there was supposed to be a GUI
-##...for this drill, so I made one just in case.
 
 import shutil as sH
 import os
