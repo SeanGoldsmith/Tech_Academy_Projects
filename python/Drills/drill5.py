@@ -54,7 +54,7 @@ def copyNew(file_list):
     c.execute("INSERT INTO transfer_info VALUES (?,?,?)",(current,path_to_dir,path_to_copy))
     conn.commit()
     lastTransferEntry.delete(0,'end')
-    lastTransferEntry.insert(0,generateLastTransfer())
+    lastTransferEntry.insert(0,generateLastTransfer()[0][0])
     #########################################
             
 def generateGUI():
@@ -84,7 +84,7 @@ def generateGUI():
     global lastTransferEntry
     lastTransferEntry = ttk.Entry(frame,width=50,justify = 'center')
     lastTransferEntry.grid(row=4,column=0,columnspan=2)
-    lastTransferEntry.insert(0,generateLastTransfer())
+    lastTransferEntry.insert(0,generateLastTransfer()[0][0])
 
 ##  Grabs the directory the user wants to copy from and adds
 ##  it to the screen. Also generates a file list for copyNew
