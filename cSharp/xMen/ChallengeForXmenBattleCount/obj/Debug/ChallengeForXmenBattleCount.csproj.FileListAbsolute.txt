@@ -1,0 +1,6 @@
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.dll.config
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.csprojResolveAssemblyReference.cache
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\CSASP_026Challenge_Code-1463053481125\CS-ASP_026-Challenge_Code\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.pdb
