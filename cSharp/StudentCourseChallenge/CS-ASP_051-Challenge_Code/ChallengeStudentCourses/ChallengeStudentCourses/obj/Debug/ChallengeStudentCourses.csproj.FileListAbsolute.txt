@@ -1,0 +1,6 @@
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll.config
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.pdb
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.csprojResolveAssemblyReference.cache
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.dll
+C:\Users\My Elite\Documents\Visual Studio 2017\Projects\CSASP_051ChallengeStudentCourses_Code-1470168422306\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.pdb
