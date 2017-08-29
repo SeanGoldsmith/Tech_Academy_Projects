@@ -12,15 +12,29 @@ namespace warGame
         protected void Page_Load(object sender, EventArgs e)
         {
             DeckOfCards testDeck = new DeckOfCards();
+            Player firstPlayer = new Player();
+            Player secondPlayer = new Player();
             testDeck.GenerateDeck();
             testDeck.shuffleDeck();
-            resultLabel.Text = testDeck.printDeck();
-            Player firstPlayer = new Player();
-            Card test = (testDeck.deal());
-            firstPlayer.hand.Add(test);
-            resultLabel.Text += String.Format("<br><br> First player holds the {0}, of {1}", firstPlayer.hand.ElementAt(0).value,firstPlayer.hand.ElementAt(0).suit);
-            resultLabel.Text += testDeck.printDeck();
+            dealCards(testDeck, firstPlayer, secondPlayer);
+            GameLogic game = new GameLogic();
+            resultLabel.Text += game.runGame(testDeck,firstPlayer,secondPlayer);
             
+
+            
+        }
+
+        public void dealCards(DeckOfCards deck, Player firstPlayer,Player secondPlayer)
+        {
+            int holdCurrentIndex = 0;
+            while(deck.deckList.Count > 0)
+            {
+                firstPlayer.recieveCard(deck.deal());
+                resultLabel.Text += String.Format("First player recieves the {0} of {1}<br>", firstPlayer.hand[holdCurrentIndex].value, firstPlayer.hand[holdCurrentIndex].suit);
+                secondPlayer.recieveCard(deck.deal());
+                resultLabel.Text += String.Format("Second player recieves the {0} of {1}<br>", secondPlayer.hand[holdCurrentIndex].value,secondPlayer.hand[holdCurrentIndex].suit);
+                holdCurrentIndex++;
+            }
         }
     }
 }
