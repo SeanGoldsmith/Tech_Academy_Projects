@@ -1,0 +1,13 @@
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\papaBobsPersistence.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\papaBobsPersistence.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\papaBobs.DTO.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\papaBobs.DTO.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\obj\Debug\papaBobsPersistence.csprojResolveAssemblyReference.cache
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\obj\Debug\papaBobsPersistence.csproj.CoreCompileInputs.cache
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\obj\Debug\papaBobsPersistence.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\obj\Debug\papaBobsPersistence.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\papaBobsPersistence.dll.config
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\EntityFramework.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\EntityFramework.xml
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsPersistence\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="papaBobsDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PizzaPrice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="SmallSizeCost" Type="smallmoney" Nullable="false" />
+    <Property Name="MediumSizeCost" Type="smallmoney" Nullable="false" />
+    <Property Name="LargeSizeCost" Type="smallmoney" Nullable="false" />
+    <Property Name="ThickCrustCost" Type="smallmoney" Nullable="false" />
+    <Property Name="ThinCurstCost" Type="smallmoney" Nullable="false" />
+    <Property Name="RegularCrustCost" Type="smallmoney" Nullable="false" />
+    <Property Name="SauasgeCost" Type="smallmoney" Nullable="false" />
+    <Property Name="PepperoniCost" Type="smallmoney" Nullable="false" />
+    <Property Name="OnionCost" Type="smallmoney" Nullable="false" />
+    <Property Name="GreenPepperCost" Type="smallmoney" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_orders">
+    <Key>
+      <PropertyRef Name="orderID" />
+    </Key>
+    <Property Name="orderID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="size" Type="int" Nullable="false" />
+    <Property Name="crust" Type="int" Nullable="false" />
+    <Property Name="sausage" Type="bit" Nullable="false" />
+    <Property Name="pepperoni" Type="bit" Nullable="false" />
+    <Property Name="onions" Type="bit" Nullable="false" />
+    <Property Name="greenPeppers" Type="bit" Nullable="false" />
+    <Property Name="totalCost" Type="smallmoney" Nullable="false" />
+    <Property Name="customerName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="customerAddress" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="customerZip" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="customerPhone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="paymentType" Type="int" Nullable="false" />
+    <Property Name="completed" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="papaBobsDBModelStoreContainer">
+    <EntitySet Name="PizzaPrice" EntityType="Self.PizzaPrice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_orders" EntityType="Self.tbl_orders" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

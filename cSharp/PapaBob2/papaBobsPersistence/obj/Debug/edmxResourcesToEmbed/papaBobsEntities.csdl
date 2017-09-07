@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="papaBobsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_orders">
+    <Key>
+      <PropertyRef Name="orderID" />
+    </Key>
+    <Property Name="orderID" Type="Guid" Nullable="false" />
+    <Property Name="size" Type="papaBobsDBModel.SizeType" Nullable="false" />
+    <Property Name="crust" Type="papaBobsDBModel.crustType" Nullable="false" />
+    <Property Name="sausage" Type="Boolean" Nullable="false" />
+    <Property Name="pepperoni" Type="Boolean" Nullable="false" />
+    <Property Name="onions" Type="Boolean" Nullable="false" />
+    <Property Name="greenPeppers" Type="Boolean" Nullable="false" />
+    <Property Name="totalCost" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="customerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="customerAddress" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="customerZip" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="customerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="paymentType" Type="papaBobsDBModel.paymentType" Nullable="false" />
+    <Property Name="completed" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="papaBobsDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_orders" EntityType="Self.tbl_orders" />
+    <EntitySet Name="PizzaPrices" EntityType="papaBobsDBModel.PizzaPrice" />
+  </EntityContainer>
+  <EnumType Name="SizeType" a:ExternalTypeName="papaBobs.DTO.Enums.SizeType" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  <EnumType Name="crustType" a:ExternalTypeName="papaBobs.DTO.Enums.crustType" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  <EnumType Name="paymentType" a:ExternalTypeName="papaBobs.DTO.Enums.paymentType" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  <EntityType Name="PizzaPrice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="SmallSizeCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="MediumSizeCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="LargeSizeCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="ThickCrustCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="ThinCurstCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="RegularCrustCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="SauasgeCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="PepperoniCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="OnionCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="GreenPepperCost" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+  </EntityType>
+</Schema>

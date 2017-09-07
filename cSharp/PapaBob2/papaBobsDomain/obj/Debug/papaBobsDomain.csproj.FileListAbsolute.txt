@@ -1,0 +1,13 @@
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobsDomain.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobsDomain.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobs.DTO.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobsPersistence.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobs.DTO.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobsPersistence.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\obj\Debug\papaBobsDomain.csprojResolveAssemblyReference.cache
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\obj\Debug\papaBobsDomain.csproj.CoreCompileInputs.cache
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\obj\Debug\papaBobsDomain.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\obj\Debug\papaBobsDomain.pdb
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\EntityFramework.dll
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\papaBobsPersistence.dll.config
+C:\Users\seang\OneDrive\Documents\Visual Studio 2017\Projects\PapaBob2\papaBobsDomain\bin\Debug\EntityFramework.xml
